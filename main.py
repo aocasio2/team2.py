@@ -2,7 +2,7 @@ import random
 
 def guessing_game():
     print("Welcome to the Guess the Number game!")
-    random_number = random.randint(1, 100)  
+    random_number = random.randint(1, 100)
     while True:
         user_guess = int(input("Guess the number (between 1 and 100): "))
 
